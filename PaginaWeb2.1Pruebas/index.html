@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang ="es">
+<head>
+  <title>Página principal</title>
+  <meta charset="UTF-8">
+      <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <link href="https://fonts.googleapis.com/css?family=Crete+Round" rel="stylesheet">
+	  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+</head>
+
+<body class="grey lighten-3">
+  
+  <div class="container">
+    <div class="section">
+      <div class="row center">
+         <div class="col s12 ">
+           <br>
+        <h1> Eres universitario y... ¿Aún no tienes cuenta?</h1>
+        <br>
+        <h2>Regístrate para acceder a todas las ventajas que tiene nuestra web.</h2>
+        <br><br>
+        <a href="p2.html" id="waves-effect waves-light" class="btn-large waves-effect waves-light blue darken-4 btn-large" aria-label="Botón Para Registrarse"><i class="material-icons left">assignment_ind</i>REGISTRATE</a></a>
+        <br><br><br>
+        <h3>¿Ya eres miembro?</h3>
+        <br><br>
+        <a href="login.html" id="waves-effect waves-light" class="btn-large waves-effect waves-light blue darken-4 btn-large"  aria-label="Botón Para Registrarse"><i class="material-icons left">vpn_key</i>LOGIN</a></a>
+        
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.carousel').carousel();
+    });
+    
+    // Next slide
+    $('.carousel').carousel('next');
+    $('.carousel').carousel('next', 3); // Move next n times.
+    // Previous slide
+    $('.carousel').carousel('prev');
+    $('.carousel').carousel('prev', 4); // Move prev n times.
+    // Set to nth slide
+    $('.carousel').carousel('set', 4);
+    
+    $('.tap-target').tapTarget('open');
+  $('.tap-target').tapTarget('close');
+  </script>
+
+  
+  <div class="carousel">
+    <a class="carousel-item"><img class="responsive-img" src="colegio.gif" alt="imágen que está relacionada con un colegio"></a>
+    <a class="carousel-item"><img class="responsive-img" src="ull.jpg" alt="imagen de la Universidad de La Laguna"></a>
+    <a class="carousel-item"><img class="responsive-img" src="http://as00.epimg.net/tikitakas/imagenes/2016/07/28/portada/1469721346_398829_1469721598_noticia_normal.jpg" alt="Imágen Homer Pensando en Exámenes"></a>
+    <a class="carousel-item" ><img class="responsive-img" src="http://4.bp.blogspot.com/-ShnKQCOuA6A/T0OlpF8eFuI/AAAAAAAABhs/HuOAcEebcFo/s1600/HOMMER%2BEXAMENES.jpg" alt ="Imágen de Un Calendario"></a>
+    <a class="carousel-item"><img class="responsive-img" src="http://periodismoinvestigativo.com/wp-content/uploads//2016/02/Screen-Shot-2016-02-28-at-6.16.33-PM.png" alt="imágen relacionada con la comunicación entre diversos dispositivos"></a>
+  </div>
+  
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+</html>

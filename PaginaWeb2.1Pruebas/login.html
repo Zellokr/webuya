@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+ <html lang="en">
+	<head>
+	    <meta charset="UTF-8">
+	 <title>Login</title>
+	  <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="/PaginaWeb2.1Pruebas/css/materialize.min.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <link href="https://fonts.googleapis.com/css?family=Crete+Round" rel="stylesheet">
+	  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	 <meta charset = "utf-8">
+	</head>
+	 
+      <body>
+          
+       <nav>
+        <div class="nav-wrapper" arial-describedby="Barra de elementos">
+              <a href="index.html" class="brand-logo left" aria-label="Enlace A Página Inicio">Diario De Clase</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+          </ul>
+        </div>
+      </nav>
+
+    <div class="row">
+        
+        <h1>Login de Usuarios</h1> 
+        
+            <form id="unique" class="col s12" method="POST" action="/PaginaWeb2.1Pruebas/php/checklogin.php">
+        	 <div class="row">
+                <div class="input-field col s6">
+                  <input id="email" tabindex="0" name="email" type="text" aria-label="Introduzca su email" class="validate" required>
+                  <label for="email">Email</label>
+                </div>
+                
+                <br/><br/><br/><br/>
+                
+            <div class="row">
+                <div class="input-field col s6">
+                  <input id="password" tabindex="0" name="password" type="password" aria-label="Introduzca su contraseña" class="validate" required>
+                  <label for="password">Password</label>
+                </div>
+            </div>
+            
+        	  <button class="btn waves-effect waves-light" tabindex="0" type="submit" name="Submit">LogIn
+                <i class="material-icons right">send</i>
+              </button>
+
+            </div>
+           </form>
+    	
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="/PaginaWeb2.1Pruebas/js/materialize.min.js"></script>    	
+    	 
+      </body>
+</html>
